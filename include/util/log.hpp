@@ -1,3 +1,7 @@
+
+#ifndef _LOG_H__
+#define _LOG_H__
+
 #include <log4cplus/logger.h>
 #include <log4cplus/loggingmacros.h>
 #include <log4cplus/configurator.h>
@@ -5,8 +9,6 @@
 #include <log4cplus/helpers/stringhelper.h>
 
 using namespace log4cplus;
-//#using namespace log4cplus::helpers;
-using namespace std;
 
 Logger loggerA;
 
@@ -46,3 +48,4 @@ int GetLogLevel()
     LOG4CPLUS_ERROR(loggerA, LOG4CPLUS_TEXT(message));\
 }
 
+#endif
