@@ -18,6 +18,7 @@
   log4cplus-2.0.1  
   zeromq-4.0.5  
   zookeeper-3.4.12  
+  fcgi-2.4.0
   
 ### 引用示例：  
   eg: 引用boost库：  
